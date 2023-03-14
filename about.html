@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Helper</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+       
+</head>
+
+<body>
+    <section class=" sub-header">
+        <nav>
+            <a href="index.html"> <img src="logo2.jpg" alt=""></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fas fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="project3.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="course.html">Courcess</a></li>
+                    <li><a href="block.html">Blog</a></li>
+                    <li><a href="contact.html">Contact</a></li> 
+                    
+                </ul>
+            </div>
+            <i class="fas fa-bars" ondblclick="showMenu()"></i>
+        </nav>
+        <h1>About Us</h1>
+
+    </section>
+    <!-- About us content -->
+    <section class="about-us">
+        <div class="row">
+            <div class="about-col">
+                <h1>We are the best Engineering college</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, eos! Lorem ipsum dolor sit amet
+                    consectetur adipisicing elit. Eligendi maiores eos perspiciatis quibusdam consequuntur debitis
+                    voluptates rem corporis a id. Qui, cupiditate placeat! Lorem, ipsum dolor sit amet consectetur
+                    adipisicing elit. Laborum velit obcaecati ullam odit doloribus delectus magnam vitae sit corrupti,
+                    quod saepe placeat illo!</p>
+                    <a href="" class="hero-btn red-btn">EXPLORE NOW</a>
+            </div>
+            <div class="about-col">
+                <img src="clg7.jpeg" alt="">
+            </div>
+        </div>
+    </section>
+    <!-- footer -->
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere ratione, officiis optio debitis sunt ab nisi
+            <br>
+            ea, temporibus nihil nostrum nesciunt voluptates a saepe incidunt consequatur voluptas. Modi sapiente
+            officia blanditiis nihil.
+        </p>
+        <div class="icons">
+            <i class="fas fa-facebook"></i>
+            <i class="fas fa-twitter"></i>
+            <i class="fas fa-instagram"></i>
+            <i class="fas fa-linkedin"></i>
+
+        </div>
+    </section>
+
+
+
+    <!-- Java Script  -->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu() {
+            navLinks.style.right = "0";
+
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200";
+
+        }
+    </script>
+</body>
+
+</html>
